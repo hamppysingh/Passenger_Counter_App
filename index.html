@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger counting web application</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div id="imagediv" class="imagediv">
+        <div id="box" class="box">
+            <p align="center" id="main"><b>Number of Passengers</b></p>
+            <p align="center" id="inc">0</p>
+            <button type="button"  id="increment" onclick=increment() onmouseover=increment()><b>Increment</b></button><br>
+            <button type="button" id="save" onclick=save()><b>&nbsp;&nbsp;&nbsp;&nbsp;Save&nbsp;&nbsp;&nbsp;&nbsp;</b></button>
+            <p align="center" id="ans"></p>
+            <p align="center"><b>Total : </b><span id="total">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
