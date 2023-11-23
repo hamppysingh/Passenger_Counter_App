@@ -7,6 +7,11 @@ document.getElementById("increment").addEventListener("click", function() {
     a += 1;
     document.getElementById("inc").innerHTML = a;
 });
+document.getElementById("reset").addEventListener("click", function() {
+    document.getElementById("inc").innerHTML=0;
+    document.getElementById("total").innerHTML="";
+    document.getElementById("ans").innerHTML="";
+});
 document.getElementById("save").addEventListener("click", function() {
     var a = parseInt(document.getElementById("inc").innerHTML);
     document.getElementById("ans").innerHTML += a+" - ";
