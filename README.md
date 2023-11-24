@@ -16,7 +16,7 @@ Step 3 : Run npm install
 
 Step 4 : Run npm install Express path
 
-Step 5 : Run mode app.js 
+Step 5 : Run node app.js 
 
 The app will open on your default browser.....
  
